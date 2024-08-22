@@ -17,4 +17,3 @@ spec:
           image: karansiva/learningplatformservice:latest
           ports:
             - containerPort: 8080
- 
