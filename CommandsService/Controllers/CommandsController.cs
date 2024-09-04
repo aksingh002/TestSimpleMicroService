@@ -9,20 +9,16 @@ using Microsoft.Extensions.Logging;
 namespace CommandsService.Controllers
 {
     
-    [Route("[controller]")]
+    [Route("api/c/[controller]")]
     [ApiController]
     public class CommandsController : ControllerBase
     {
         private readonly ILogger<CommandsController> _logger;
 
+
         public CommandsController(ILogger<CommandsController> logger)
         {
             _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
