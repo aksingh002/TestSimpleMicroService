@@ -18,8 +18,6 @@ namespace CommandsService.Controllers
         {
             _logger = logger;
         }
-        public 
-
         
     }
 }
