@@ -12,7 +12,7 @@ namespace CommandsService.Controllers
     [ApiController]
     public class PlatformsController : ControllersBase
     {
-        private readonly ILogger<PlatformsController> _logger;
+       
 
         public PlatformsController(ILogger<PlatformsController> logger)
         {
