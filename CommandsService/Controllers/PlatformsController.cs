@@ -14,9 +14,9 @@ namespace CommandsService.Controllers
     {
        
 
-        public PlatformsController(ILogger<PlatformsController> logger)
+        public PlatformsController()
         {
-            _logger = logger;
+           
         }
         
     }
